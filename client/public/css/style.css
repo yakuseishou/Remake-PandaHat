@@ -1,0 +1,48 @@
+body {
+    background-color: #343a40!important;
+    color: white;
+    font-family: 'Montserrat-bold', sans-serif;
+    margin: auto;
+    padding: 5% 10%;
+    text-align: left;
+}
+
+/* homepage */
+.homeBg {
+    display: block;
+    margin: auto;
+}
+
+.new {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.spacing {
+    padding-right: 5%;
+}
+
+/* NavBar */
+.navBar {
+    background-color: #e3f2fd;
+}
+
+.brand {
+    font-size: 2rem;
+    font-weight:  900;
+}
+
+.brand-text {
+    color: black;
+}
+
+.logo {
+    width: 5%;
+    padding-right: 1%;
+}
+
+.navContent {
+    padding-right: 5%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
