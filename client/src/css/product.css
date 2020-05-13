@@ -1,0 +1,32 @@
+
+.hat {
+    color: black;
+    padding: 5%;
+}
+
+.item-img {
+    width: 100%;
+    /* border: 2px solid gray; */
+    margin-bottom: 2%;
+}
+
+.card-body {
+
+}
+
+.hat_name {
+
+}
+
+.detail {
+
+}
+
+.add_cart {
+    position: relative;
+    display: inline-block;
+}
+
+.add-value {
+    width: 20%;
+}

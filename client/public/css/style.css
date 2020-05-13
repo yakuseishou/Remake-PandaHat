@@ -1,9 +1,8 @@
 body {
-    background-color: #343a40!important;
+    background-color: #343a40;
     color: white;
     font-family: 'Montserrat-bold', sans-serif;
     margin: auto;
-    padding: 5% 10%;
     text-align: left;
 }
 
@@ -11,6 +10,7 @@ body {
 .homeBg {
     display: block;
     margin: auto;
+    opacity: .8;
 }
 
 .new {
@@ -23,6 +23,7 @@ body {
 }
 
 /* NavBar */
+
 .navBar {
     background-color: #e3f2fd;
 }
@@ -45,4 +46,38 @@ body {
     padding-right: 5%;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.drop-item {
+    background-color: #e3f2fd;
+}
+
+/** footer **/
+.footer {
+    background-color: #e3f2fd;
+    color: #bdc3ca;
+    line-height: 2rem;
+}
+
+
+
+/** contents **/
+
+.content-body {
+    padding: 2%;
+    /* background-color: white; */
+}
+
+.form {
+    background-color: #555b61;
+    color: white;
+    padding: 3%;
+    border-radius: 3%;
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+}
+
+.form img {
+    width: 50%;
 }

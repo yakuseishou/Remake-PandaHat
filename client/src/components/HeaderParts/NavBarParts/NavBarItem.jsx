@@ -7,11 +7,11 @@ function NavBarItem(props) {
 
     return (
         <li className="nav-item dropdown navContent">
-            <a className="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="dropdown nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {props.name}
             </a>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                {menuItemsContent.map(content => {
+            <div className="dropdown-menu drop-item" aria-labelledby="dropdownMenuLink">
+                {props.list.map(content => {
                     return (
                         <MenuItemContent 
                             content={content}

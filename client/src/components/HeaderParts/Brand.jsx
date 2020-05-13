@@ -1,6 +1,6 @@
 import React from "react";
 
-function Banner() {
+function Brand() {
     return (
         <div className="navbar-brand brand">
             <a className="nav-link brand-text" href="">
@@ -10,4 +10,4 @@ function Banner() {
     );
 }
 
-export default Banner;
+export default Brand;
