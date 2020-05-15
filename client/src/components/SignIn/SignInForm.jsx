@@ -11,11 +11,12 @@ function SignInForm() {
                     <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus />
                     <label for="inputPassword" className="sr-only">Password</label>
                     <input type="password" id="inputPassword" className="form-control" placeholder="Password" required />
-                    <div className="checkbox mb-3">
+                    {/* maybe add a remember login 
+                     <div className="checkbox mb-3">
                       <label>
                         <input type="checkbox" value="remember-me"/> Remember me
                       </label>
-                    </div>
+                    </div> */}`
                     <button className="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
                 </form>
             </div>
