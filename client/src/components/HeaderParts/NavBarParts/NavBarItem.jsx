@@ -1,9 +1,7 @@
-import React, {useState} from "react";
-import menuItemsContent from "./MenuItemContent";
+import React from "react";
 import MenuItemContent from "./MenuItemContent";
 
 function NavBarItem(props) {
-    // const [menuItemsContent] = useState(["Action", "Another action", "Something else here"]);
 
     return (
         <li className="nav-item dropdown navContent">
